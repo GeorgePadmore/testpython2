@@ -5,8 +5,8 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
+    secret = "notfound"
     return "Home sweet home"
-
 
 
 
